@@ -18,7 +18,7 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "m/";
+const prefix = "m\";
 const cooldown = new Set();
 const cdtime = 7;
 client.on("ready", () => {
@@ -1590,5 +1590,5 @@ client.on("guildMemberAdd", async member => {
 })
 
 
-client.login("");
+client.login("ODM0MDM3NTg3OTExNjM5MDgw.YH7ECA.eNMKY1rT3pkGoZNeDZpTEsbTD_4");
 
