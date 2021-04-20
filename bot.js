@@ -21,7 +21,6 @@ const cmd = require("node-cmd");
 const prefix = "m/";
 const cooldown = new Set();
 const cdtime = 7;
-client.login("");
 client.on("ready", () => {
   console.log(`${client.user.tag}`);
 });
@@ -1589,3 +1588,7 @@ client.on("guildMemberAdd", async member => {
   .setFooter('Thanks For Joining!')
   channel.send(WELCOME)
 })
+
+
+client.login("");
+
